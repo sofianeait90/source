@@ -6,7 +6,7 @@ import Footer from "@/Components/footer";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-auto min-h-screen py-8 px-1 pb-20 gap-0 lg:py-20 font-[family-name:var(--font-geist-sans)] bg-[#1F2A45] text-white">
+    <div className="grid grid-rows-auto min-h-screen pt-20 py-8 px-4 pb-20 gap-0 lg:py-20 font-[family-name:var(--font-geist-sans)] bg-[#1F2A45] text-white">
       <Navbar />
       <Body />
       <Address />

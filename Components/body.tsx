@@ -42,13 +42,13 @@ const Body = () => {
     <div className="w-full flex flex-col h-full justify-center items-center">
       <motion.div
         ref={heroRef}
-        className="w-full flex h-195 py-5 bg-[url('/landpage.jpg')] items-center justify-center bg-cover bg-center relative"
+        className="w-full flex h-300 sm:h-200 py-5 bg-[url('/landpage.jpg')] items-center justify-center bg-cover bg-center relative"
         initial="hidden"
         animate={heroControls}
         variants={heroVariant}
         transition={{ duration: 0.9, ease: "easeOut" }}
       >
-        <div className="w-300 h-full flex flex-col bg-transaprent items-center justify-start gap-8">
+        <div className="w-full max-w-4xl h-full flex flex-col items-center justify-start gap-8 px-4">
           <motion.div
             className="w-full text-blue-700 flex flex-col h-70 items-start justify-center p-6"
             variants={heroVariant}
@@ -66,7 +66,7 @@ const Body = () => {
             </h1>
           </motion.div>
 
-          <div className="w-full bg-center py-16 px-6 flex flex-col items-center">
+          <div className="w-full bg-center py-8 px-4 flex flex-col items-center">
             <motion.div
               ref={cardsRef}
               className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-3 gap-6"
@@ -138,7 +138,7 @@ const Body = () => {
         </div>
       </motion.div>
 
-      <div className="w-full bg-center py-16 px-6 flex flex-col items-center">
+      <div className="w-full bg-center py-8 px-4 flex flex-col items-center">
         <motion.div
           className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-4 gap-6"
           variants={cardsContainer}

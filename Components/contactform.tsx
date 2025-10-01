@@ -19,7 +19,7 @@ const ContactForm = () => {
     <div className="bg-gray-200 flex justify-center mt-0 py-8 px-4 w-full">
       <form
         onSubmit={handleSubmit}
-        className="bg-white my-auto p-8 rounded-1xl shadow-lg max-w  space-y-4"
+        className="bg-white my-auto p-6 sm:p-8 rounded-2xl shadow-lg max-w-md sm:max-w-2xl w-full space-y-4"
       >
         <h2 className="text-2xl font-bold text-center text-gray-800">
           Send us a message
